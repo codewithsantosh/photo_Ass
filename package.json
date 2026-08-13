@@ -12,5 +12,9 @@
     "build:ui": "npm run build --workspace=media-ui-react && npm run build --workspace=media-ui-native",
     "dev:web": "npm run dev --workspace=web-app",
     "test:core": "npm run test --workspace=media-core"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   }
 }
