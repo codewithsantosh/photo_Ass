@@ -7,6 +7,7 @@
     "apps/*"
   ],
   "scripts": {
+    "build": "npm run build --workspace=web-app",
     "build:core": "npm run build --workspace=media-core",
     "build:wrappers": "npm run build --workspace=media-react && npm run build --workspace=media-native",
     "build:ui": "npm run build --workspace=media-ui-react && npm run build --workspace=media-ui-native",
