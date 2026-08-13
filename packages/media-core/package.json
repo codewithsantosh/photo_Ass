@@ -1,0 +1,15 @@
+{
+  "name": "media-core",
+  "version": "0.1.0",
+  "description": "Framework-agnostic core SDK for the Pexels media API. No React, no DOM, no RN.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.4.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "media-ui-native",
+  "version": "0.1.0",
+  "description": "Headless UI components for media browsing on React Native: Grid (FlatList-based), Lightbox (Modal-based), ReelSwiper (FlatList paging). No imports from media-core or media-native.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": { "build": "tsc" },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.73.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.4.0"
+  }
+}

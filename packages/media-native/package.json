@@ -1,0 +1,19 @@
+{
+  "name": "media-native",
+  "version": "0.1.0",
+  "description": "React Native wrapper around media-core. Same hook contract as media-react, adapted for RN idioms (NetInfo-aware refetch, no DOM assumptions).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": { "build": "tsc" },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.73.0"
+  },
+  "dependencies": {
+    "media-core": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.4.0"
+  }
+}
